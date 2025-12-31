@@ -1,0 +1,22 @@
+{
+  "name": "norkcraft-email-server",
+  "version": "1.0.0",
+  "description": "Email server for NorkCraft OTP verification",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "keywords": ["email", "otp", "norkcraft"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "mongoose": "^7.5.0",
+    "bcryptjs": "^2.4.3",
+    "joi": "^17.11.0"
+  }
+}
